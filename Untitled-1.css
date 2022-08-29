@@ -1,0 +1,665 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.clear {
+    clear: both;
+}
+
+.nav-bar {
+
+    position: fixed;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 100;
+    background-color: #ffff;
+
+
+}
+
+button {
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #F7F9FE;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+button a {
+    color: #ffff;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 40px;
+
+
+}
+
+li {
+    margin: 0px 20px;
+    list-style: none;
+    font-weight: bold;
+
+}
+
+a {
+    color: #50658e;
+    text-decoration: none;
+}
+
+.logo span {
+    font-weight: 2000;
+
+}
+
+._19 {
+    color: #50658e;
+}
+
+.logo {
+    padding-left: 20px;
+}
+
+#Home {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+    position: relative;
+    background: url("home.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#Home h2 {
+    font-size: 85px;
+    font-weight: 1000;
+    font-family: 'Oswald', sans-serif;
+    color: #50658e;
+    text-align: left;
+}
+
+#Home span {
+    margin: 16px 28px 28px 0px;
+    position: absolute;
+    padding: 0px;
+    left: 400px;
+    top: 250px;
+
+}
+
+h3 {
+    font-family: 'Oswald', sans-serif;
+    color: red;
+    font-size: 30px;
+}
+
+h4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 43px;
+    left: 20px;
+    top: 20px;
+    position: absolute;
+    color: #50658e;
+}
+
+img {
+    width: 90%;
+}
+
+button i {
+    font-size: 20px;
+}
+
+.rec {
+    display: flex;
+    margin-right: 30px;
+    position: absolute;
+    bottom: 30px;
+
+}
+
+.rec div {
+    margin-right: 50px;
+    font-weight: 1000;
+    font-size: 25px;
+    color: #50658e;
+    padding-left: 30px;
+}
+
+#About_Corona span {
+    font-size: 31px;
+    color: #50658e;
+}
+
+#About_Corona {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.row ul {
+
+    flex-direction: column;
+}
+
+.row {
+    padding-top: 80px;
+    width: 100%;
+}
+
+.row li {
+    color: #888888;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 16px;
+    border: #888888;
+    box-shadow: 3px 3px 3px 1px #888888;
+}
+
+.row li a {
+    color: #007bff;
+}
+
+.spr_con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.spr_con div {
+    margin: 30px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 1000;
+    font-family: 'Oswald', sans-serif;
+    color: #50658e;
+    text-align: center;
+}
+
+#transmision p {
+    text-align: center;
+    font-size: larger;
+    position: relative;
+
+
+}
+
+#transmision {
+    background-color: #F7F9FE;
+    margin-top: 10px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    position: relative;
+
+}
+
+#transmision div p::before {
+    position: absolute;
+    width: 100%;
+    background-color: #007bff;
+    height: 5px;
+    content: "";
+    top: -23px;
+
+}
+
+.btt {
+    text-align: center;
+
+
+
+}
+
+
+
+p {
+    text-align: center;
+    font-size: large;
+
+}
+
+.sym_con {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px;
+
+
+}
+
+.sym_con img {
+    border-radius: 50%;
+    width: 30%;
+
+}
+
+.sym_con h5 {
+    color: #7691f9;
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+
+}
+
+#Symptoms .sym_con p {
+    width: 90%;
+    text-align: center;
+
+}
+
+.sym_con div {
+    box-shadow: 0px 5px 10px 15px whitesmoke
+}
+
+#Symptoms div p {
+    text-align: left;
+    width: 50%;
+}
+
+#Symptoms div p i {
+    font-size: xx-large;
+}
+
+.sym_foot {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+#Prevention {
+    background-color: #F7F9FE;
+
+}
+
+.pre_con img {
+    border-radius: 50%;
+    width: 30%;
+}
+
+.pre_con {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px;
+
+}
+
+.pre_con p {
+    width: 90%;
+    text-align: center;
+
+}
+
+span {
+    text-align: center;
+    color: #50658e;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.pre_foot {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    margin: 30px 20px;
+    background-color: #ffff;
+}
+
+.pre_foot ul {
+    flex-direction: column;
+}
+
+.pre_foot li span {
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+.pre_foot li {
+    margin: 20px 0px;
+    font-size: large;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+
+.steps img {
+    border-radius: 50%;
+}
+
+.pre_foot li i {
+    color: #52c98b;
+}
+
+.trea_con {
+    background: url("home.png");
+    background-size: 100% 100%;
+    background-color: #2766bb;
+    padding: 85px 87px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trea_con h5 {
+    color: #F7F9FE;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.trea_con p {
+    font-size: larger;
+}
+
+.trea_con ul {
+    flex-direction: column;
+    width: 100%;
+}
+
+.trea_con li {
+    margin: 20px 0px;
+    color: #F7F9FE;
+}
+
+.trea_con div {
+    width: 100%;
+}
+
+.trea_right {
+    background-color: #1b47a1;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+#Treatments {
+    background-color: #F7F9FE;
+}
+
+.prot_con {
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.prot_con ul {
+    flex-direction: column;
+}
+
+.prot_con img {
+    width: 100%;
+
+}
+
+.wrong img {
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+
+.wrong i {
+    color: red;
+}
+
+.right i {
+    color: #52c98b;
+}
+
+.right img {
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+
+.new_con {
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+}
+
+.new_con div {
+    box-shadow: 0px 5px 10px 15px whitesmoke;
+    margin-right: 2px;
+}
+
+#News {
+    background-color: #fff;
+}
+
+.footer {
+    background-color: #151c2e;
+    background-image: url("home.png");
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer i {
+    color: red;
+}
+
+.footer h1 span {
+    color: #fff;
+
+}
+
+.footer h1 {
+    padding-left: 20px;
+}
+
+.footer p {
+    color: #fff;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.social i {
+    padding-left: 10px;
+    margin: 10px;
+    color: #b2bfe0;
+    font-size: x-large;
+}
+
+.footer h5 {
+    color: #fff;
+    font-size: larger;
+    text-align: center;
+}
+
+.footer li {
+    color: #fff;
+    margin: 10px 30px;
+}
+
+.footer ul {
+    flex-direction: column;
+}
+
+.footer div {
+    width: 100%;
+}
+
+.sign::before {
+    content: "";
+    position: absolute;
+    height: 300px;
+    background-color: #fff;
+    width: 3px;
+}
+
+@media only screen and (max-width: 920px) {
+
+    .nav-bar {
+        position: absolute;
+    }
+
+    .nav-bar ul {
+        display: block;
+    }
+
+    #Home h2 {
+        font-size: 40px;
+    }
+
+    #Home {
+        padding-top: 254px;
+    }
+
+    h4 {
+        font-size: 7px;
+        left: -221px;
+        top: 16px;
+    }
+
+    h3 {
+        font-size: 7px;
+        left: -245px;
+        position: absolute;
+        top: 10px;
+    }
+
+    .rec {
+        position: relative;
+        display: block;
+        top: 3px;
+    }
+
+    .rec div {
+        margin-right: 0px;
+        font-weight: 1000;
+        font-size: 17px;
+        color: #50658e;
+        padding-left: 30px;
+        margin-bottom: 10px;
+    }
+
+    #About_Corona {
+        display: block;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    #About_Corona span {
+        font-size: 20px;
+    }
+
+    ul {
+        padding: 0px 0px;
+    }
+
+    .spr_con {
+        display: block;
+
+    }
+
+    .sym_con {
+        display: block;
+        padding: 0px 0px;
+    }
+
+    #Symptoms div p {
+
+        width: 100%;
+    }
+
+    .sym_foot {
+        display: block;
+        padding: 20px;
+    }
+
+    p {
+
+        font-size: initial;
+    }
+
+    .pre_con {
+        display: block;
+        padding: 0px 0px;
+    }
+
+    .pre_foot {
+        display: block;
+
+        margin: 0px 0px;
+
+    }
+
+    .steps {
+        display: block;
+        padding: 10%;
+    }
+
+    .trea_con {
+
+        background-size: initial;
+        padding: 1px 0px;
+        display: block;
+    }
+
+    .trea_con h5 {
+        font-size: x-large;
+    }
+
+    .trea_con p {
+        font-size: inherit;
+    }
+
+    .trea_right {
+
+
+        margin: 10px;
+    }
+
+    .trea_con div {
+        width: initial;
+    }
+
+    .trea_con li {
+        margin: 15px 0px;
+
+    }
+
+    .prot_con img {
+
+        top: 150px;
+        position: inherit
+    }
+
+    .prot_con {
+        padding: 0%;
+        display: flex;
+
+    }
+
+    .prot_con div {
+        position: relative;
+    }
+
+    .new_con {
+        display: block;
+    }
+
+    .footer {
+        display: block;
+    }
+    .footer li {
+        
+        margin: 2px 30px;
+    }
+    .sign::before {
+        content:initial;
+        
+    }
+body{
+    overflow-x: hidden;
+}
+
+
+
+}
